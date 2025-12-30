@@ -45,37 +45,42 @@ export function EducationSection() {
               <div className="p-4 bg-gray-50 rounded-lg">
                 <h4 className="text-lg font-semibold text-gray-900">Uki Technology of School</h4>
                 <p className="text-blue-600 font-medium">
-                  AI With Full-Stack Development and Next.js &amp; Entrepreneurial Skills
+                  Full-Stack Development & Entrepreneurship
                 </p>
-                <p className="text-gray-600 text-sm">on Going</p>
-              </div>
-              <div className="p-4 bg-gray-50 rounded-lg">
-                <h4 className="text-lg font-semibold text-gray-900">
-                  NoviTech R&amp;D Private Limited.
-                </h4>
-                <p className="text-blue-600 font-medium">Artificial Intelligence MasterClass</p>
-                <p className="text-blue-600 font-medium">Full Stack Development</p>
-                <p className="text-blue-600 font-medium">UI/UX Design</p>
-                <p className="text-gray-600 text-sm"></p>
-              </div>
-              <div className="p-4 bg-gray-50 rounded-lg">
-                <h4 className="text-lg font-semibold text-gray-900">Yarl IT Hub</h4>
-                <p className="text-blue-600 font-medium">Startup Essentials program</p>
-                <p className="text-gray-600 text-sm"></p>
-              </div>
-              <div className="p-4 bg-gray-50 rounded-lg">
-                <h4 className="text-lg font-semibold text-gray-900">
-                  Balmoral institute of information technology
-                </h4>
-                <p className="text-blue-600 font-medium">Diploma in Microsoft office</p>
-                <p className="text-gray-600 text-sm"></p>
+                <p className="text-gray-600 text-sm">May - December 2025</p>
               </div>
               <div className="p-4 bg-gray-50 rounded-lg">
                 <h4 className="text-lg font-semibold text-gray-900">
                   The Institute of Comparative Analysis for Scientific Environmental Development
                 </h4>
                 <p className="text-blue-600 font-medium">Diploma in Human Resource Management</p>
-                <p className="text-gray-600 text-sm">on Going</p>
+                <p className="text-gray-600 text-sm">April - on Going</p>
+              </div>
+              <div className="p-4 bg-gray-50 rounded-lg">
+                <h4 className="text-lg font-semibold text-gray-900">
+                  NoviTech R&amp;D Private Limited.
+                </h4>
+                <p className="text-blue-600 font-medium">Artificial Intelligence MasterClass</p>
+                <p className="text-gray-600 text-sm">November - December 2025</p>
+
+                <p className="text-blue-600 font-medium">UI/UX Design</p>
+                <p className="text-gray-600 text-sm">September - October 2025</p>
+
+                <p className="text-blue-600 font-medium">Full Stack Development</p>
+                <p className="text-gray-600 text-sm">November - December 2025</p>
+              </div>
+
+              <div className="p-4 bg-gray-50 rounded-lg">
+                <h4 className="text-lg font-semibold text-gray-900">Yarl IT Hub</h4>
+                <p className="text-blue-600 font-medium">Startup Essentials program</p>
+                <p className="text-gray-600 text-sm">June - August 2025</p>
+              </div>
+              <div className="p-4 bg-gray-50 rounded-lg">
+                <h4 className="text-lg font-semibold text-gray-900">
+                  Balmoral institute of information technology
+                </h4>
+                <p className="text-blue-600 font-medium">Diploma in Microsoft office</p>
+                <p className="text-gray-600 text-sm">February - April 2025</p>
               </div>
             </div>
           </div>
@@ -108,9 +113,8 @@ export function EducationSection() {
                 <h4 className="text-lg font-semibold text-gray-900">Current Role</h4>
                 <p className="text-blue-600 font-medium">Web Developer</p>
                 <p className="text-gray-600 text-sm">
-                  AI-powered and full-stack web applications using MERN &amp; Next.js, including
-                  real-world projects that combine Machine Learning, UI/UX, and SaaS-focused product
-                  thinking
+                  Full-stack web applications using MERN &amp; Next.js, UI/UX, and SaaS-focused
+                  product thinking intergrated with AI capabilities.
                 </p>
               </div>
 

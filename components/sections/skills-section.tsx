@@ -1,40 +1,71 @@
 const technicalSkills = [
   {
-    category: 'Statistics & Data Science',
+    category: 'Full Stack Web Development ',
+    skills: ['HTML/CSS',
+       'JavaScript', 
+       'React', 
+       'Next.js', 
+       'Git/GitHub', 
+       'Node.js', 
+       'Express.js',
+       'python', 
+       'MongoDB',
+       'RESTful APIs',
+       'Security and Authentication Protocols',
+       'System Architecture and Design',
+        'Deployment '
+      ],
+  },
+  {
+    category: 'UI/UX Design',
     skills: [
-      'Statistical Analysis',
-      'Multivariate Statistics',
-      'Python',
-      'Pandas & NumPy',
-      'Scikit-learn',
-      'Data Visualization',
+      'Figma',
+      'WordPress',
+      'Miro ',
+      'Balsamiq',
+      'Mockflow',
+     " UXPin",
+     "Uizard ",
+     'Adobe XD',
+     'Sketch',
+     'InVision',
+     'Visily',
+     'Illustrator',
+      'Lovable AI ',
+      'Photoshop',
+
+      
     ],
   },
   {
-    category: 'Machine Learning & Research',
+    category: 'Artificial Intelligence & Machine Learning',
     skills: [
-      'Machine Learning',
-      'PCA & Factor Analysis',
-      'Decision Trees',
-      'Feature Engineering',
-      'Jupyter Notebooks',
-      'Kaggle',
+      'Python Programming',
+      'openCV',
+      'NumPy',
+      'Pandas',
+      'Matplotlib',
+      'TensorFlow',
+      'Scikit-Learn',
+      'Keras',
+      'Natural Language Processing (NLP)',
+      'Computer Vision',
+      'Data Preprocessing & Visualization',
     ],
   },
   {
-    category: 'AI & Natural Language Processing',
+    category: 'Micro Office & Other Tools',
     skills: [
-      'Hugging Face Transformers',
-      'LangChain',
-      'Legal-BERT',
-      'BART',
-      'FAISS',
-      'Vector Search',
+      'Microsoft Word',
+      'Microsoft Excel',
+      'Microsoft PowerPoint',
+      'Microsoft Outlook',
+      'Google Docs',
+      'Google Sheets',
+      'Google Slides',
+      'Notion',
+      'Google Cloud',
     ],
-  },
-  {
-    category: 'Web Development (Learning)',
-    skills: ['HTML/CSS', 'JavaScript', 'React', 'Next.js', 'Django', 'Git/GitHub'],
   },
 ];
 
@@ -59,7 +90,7 @@ export function SkillsSection() {
             className="text-xl text-gray-600 max-w-3xl mx-auto animate-fade-in-up"
             style={{ animationDelay: '0.2s' }}
           >
-            Technical expertise and soft skills that drive successful project delivery
+            Technical and soft skills that drive my development
           </p>
         </div>
 
@@ -69,7 +100,7 @@ export function SkillsSection() {
             className="text-2xl font-bold text-gray-900 mb-8 text-center animate-fade-in-up"
             style={{ animationDelay: '0.3s' }}
           >
-            Technical Expertise
+            Technical Skills
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {technicalSkills.map((category, index) => (

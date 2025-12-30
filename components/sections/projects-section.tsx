@@ -4,71 +4,69 @@ import { useState } from 'react';
 
 const projects = [
   {
-    title: 'Bayesian Analysis of Student Academic Performance - STA4063 Mini Project',
+    title: 'AI-Doc-Explorer',
     description:
-      'Comprehensive Bayesian statistical analysis project exploring how Bayesian methods can be applied to analyze and predict student academic performance. The project implements advanced Bayesian inference techniques including parameter estimation, hypothesis testing, and predictive modeling using student performance datasets. Features include prior and posterior distribution analysis, Markov Chain Monte Carlo (MCMC) methods, credible intervals, and Bayesian model comparison. The analysis provides insights into factors affecting academic performance and demonstrates the power of Bayesian statistics in educational data science.',
-    technologies: [
-      'Bayesian Statistics',
-      'MCMC Methods',
-      'Jupyter Notebook',
-      'Python',
-      'Statistical Modeling',
-      'Educational Data Science',
-      'Predictive Analytics',
-      'Hypothesis Testing',
-      'Parameter Estimation',
-      'Academic Research',
-    ],
-    github: 'https://github.com/sahastraG39/Bayesian-Analysis-of-Student-Academic-Performance.git',
+      'AI Doc Explorer is a Django-based web application designed to simplify document comprehension, particularly for legal contracts and complex documents. The platform automatically processes uploaded PDF documents ',
+    technologies: ['Python', 'Django', 'mariadb'],
+    github: 'https://github.com/Ramsan-code/ai-doc-explorer.git',
   },
   {
-    title: 'Customer Segmentation Analysis - Course Project STA4053',
+    title: 'Book Locator ',
     description:
-      "This study aims to explore and analyze customer data using a comprehensive set of multivariate statistical and machine learning techniques. This study uses a dataset of 100,000 observations with 18 variables, including 10 numerical (e.g., age, income) and 8 categorical (e.g., gender, region) features. The dataset's size and diversity enable effective pattern detection, dimensionality reduction, and predictive modeling. The dataset comprises multiple features related to customer behavior, demographics, and potentially transactional information. The objective is to uncover underlying patterns, reduce dimensionality for better visualization and interpretation, and build predictive models for classification or segmentation purposes.",
+      'Introduction Book Locator is a web-based peer-to-peer book marketplace designed to connect readers within local communities. In an era where digital reading is prevalent, many still prefer physical books but struggle to find them affordably or locally. Book Locator addresses this by providing a platform for users to buy, sell, and discover books in their immediate vicinity, fostering a sustainable and community-driven reading culture',
     technologies: [
-      'Multivariate Statistics',
-      'PCA',
-      'Factor Analysis',
-      'Decision Trees',
-      'MANOVA',
-      'Python',
-      'Pandas',
-      'Scikit-learn',
-      'Matplotlib',
-      'Seaborn',
+      'Next.js',
+      'MongoDB',
+      'Shadcn UI',
+      'Node.js',
+      'Express.js',
+      'Typescript',
+      'Vercel',
+      'CORS',
+      'radix-ui',
+      'stripe',
+      'cloudinary',
+      'lucide-icons',
+      'axios',
+      'react-hook-form',
+      'zod',
+      'sonner',
+      'bcryptjs',
+      'dotenv',
+      'jsonwebtoken',
+      'multer',
+      'nodemailer',
+      'nodemon',
     ],
-    github: 'https://github.com/sahastraG39/Customer-Segment-Analysis.git',
+    github: 'https://github.com/Ramsan-code/Book-Locator.git',
+  },
+
+  {
+    title: 'Exam Result Progress System',
+    description: 'Exam Result Progress System using python',
+    technologies: ['python'],
+    github: 'https://github.com/Ramsan-code/final-assignment.git',
+  },
+
+  {
+    title: 'Google Translater ',
+    description:
+      'A web application that translates text between different languages using the Google Translate API. Users can input text, select source and target languages, and receive accurate translations in real-time.',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Google Translate API'],
+    github: 'https://github.com/Ramsan-code/google_Translater.git',
   },
   {
-    title: 'Weather Condition Prediction (Kaggle Project)',
+    title: 'QR Code Generator ',
     description:
-      'I built a machine learning pipeline to clean, preprocess, and analyze ~2,900 daily weather records. The project included handling missing values, feature engineering (e.g., converting sunrise/sunset times into numerical features), and exploratory data visualization. Using a Random Forest Classifier, I predicted missing weather condition labels such as Clear and Sunny, Partly Cloudy, and Rain Showers. The model achieved ~48% accuracy, and I generated a final submission file for the Kaggle competition.',
-    technologies: [
-      'Data Cleaning',
-      'EDA',
-      'Feature Engineering',
-      'Random Forest',
-      'Pandas',
-      'Seaborn',
-      'Scikit-learn',
-    ],
-    github: 'https://github.com/sahastraG39/Predicta1.0.git',
+      'A simple and user-friendly QR code generator web application that allows users to create QR codes quickly for URLs, text, and other data',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'qrcode.min.js'],
+    github: 'https://github.com/Ramsan-code/QR_Genarator.git',
   },
   {
-    title: 'AI Legal Advisor – Intelligent Legal Document Analysis',
-    description:
-      'Developed a full-stack AI-powered legal document analysis platform with clause detection, risk assessment, document classification, and a conversational legal assistant. The system supports multi-page document analysis, generates comprehensive PDF/DOCX/CSV reports, and enables document-aware Q&A via conversational AI. Features include multi-page analysis, text extraction, clause detection using Legal-BERT, risk scoring, conversational AI with chat memory, analytics & reporting with summarization, and performance optimizations.',
-    technologies: [
-      'Django',
-      'Python',
-      'Hugging Face Transformers',
-      'FAISS',
-      'LangChain',
-      'Docker',
-      'Legal-BERT',
-      'BART',
-    ],
-    github: 'https://github.com/sahastraG39/AI_Legal_Advisor.git',
+    title: 'Theme Switcher ',
+    description: 'I create theme-switcher for only using html,css and vanilla javascript',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    github: 'https://github.com/Ramsan-code/theme_swicher.git',
   },
   // Add more projects here by copying the structure above
 ];
@@ -102,7 +100,7 @@ export function ProjectsSection() {
             className="text-xl text-gray-600 max-w-3xl mx-auto animate-fade-in-up"
             style={{ animationDelay: '0.2s' }}
           >
-            Showcasing my expertise in AI/ML, data science, and full-stack development
+            Showcasing my AI , MERN stack development & Next.js projects
           </p>
         </div>
 

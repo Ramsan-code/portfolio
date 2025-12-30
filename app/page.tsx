@@ -3,7 +3,6 @@
 import Image from 'next/image';
 import { EducationSection } from '@/components/sections/education-section';
 import { ProjectsSection } from '@/components/sections/projects-section';
-import { ArticlesSection } from '@/components/sections/articles-section';
 import { SkillsSection } from '@/components/sections/skills-section';
 import { ContactSection } from '@/components/sections/contact-section';
 
@@ -46,24 +45,29 @@ export default function Home() {
               <div className="text-center lg:text-left space-y-6">
                 {/* Name */}
                 <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-                  Ramasan
+                  Thaventhiran Ramsan
                 </h1>
 
                 {/* Subtitle */}
-                <h2 className="text-xl sm:text-2xl font-medium text-gray-600">Web Developer</h2>
+                <h2 className="text-xl sm:text-2xl font-medium text-gray-600">
+                  AI & MERN Stack Developer
+                </h2>
 
                 {/* About Me */}
                 <div className="space-y-3">
-                  <h3 className="text-lg font-semibold text-gray-800">A Bit About Me</h3>
+                  <h3 className="text-lg font-semibold text-gray-800"> About Me</h3>
                   <p className="text-base text-gray-600 leading-relaxed max-w-5xl">
-                    &ldquo;Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever
-                    since the 1500s, when an unknown printer took a galley of type and scrambled it
-                    to make a type specimen book. It has survived not only five centuries, but also
-                    the leap into electronic typesetting, remaining essentially unchanged. It was
-                    popularised in the 1960s with the release of Letraset sheets containing Lorem
-                    Ipsum passages, and more recently with desktop publishing software like Aldus
-                    PageMaker including versions of Lorem Ipsum.&rdquo;
+                    I am a highly motivated, multidisciplinary technology professional with a strong
+                    academic and practical foundation in Full Stack Web Development, Artificial
+                    Intelligence, UI/UX Design, Human Resourse Management, and Business
+                    Fundamentals. I thrive at the intersection of technology, design, and strategy,
+                    building solutions that are both technically robust and user-centered.I have
+                    completed multiple industry-recognized masterclasses and skill camps from
+                    leading technology and innovation hubs, including NoviTech R&D, Uki, Yarl IT
+                    Hub, Pantech.AI, British Institute of Engineering & Technology and Institute of
+                    Comparative Analysis for Scientific Environmental Development(CASED). These
+                    programs have strengthened my hands-on experience and exposed me to real-world,
+                    industry-driven problem solving.
                   </p>
                 </div>
               </div>
@@ -83,7 +87,6 @@ export default function Home() {
 
         {/* Articles Section with subtle background */}
         <div className="relative z-10">
-          <ArticlesSection />
         </div>
 
         {/* Skills Section with gradient background */}
@@ -104,7 +107,7 @@ export default function Home() {
               <div className="space-y-4">
                 {/* Brand */}
                 <div>
-                  <h3 className="text-2xl font-bold text-blue-400 mb-3">SG</h3>
+                  <h3 className="text-2xl font-bold text-blue-400 mb-3">Ramsan</h3>
                   <p className="text-gray-300 text-sm leading-relaxed">
                     It is a long established fact that a reader will be distracted by the readable
                     content of a page when looking at its layout. The point of using Lorem Ipsum is
@@ -213,7 +216,7 @@ export default function Home() {
 
             {/* Copyright */}
             <div className="border-t border-blue-700 mt-8 pt-6 text-center">
-              <p className="text-gray-400 text-sm">© 2025 Sahastra Gunasegaram.</p>
+              <p className="text-gray-400 text-sm">© 2025 Ramsan.</p>
             </div>
           </div>
         </footer>

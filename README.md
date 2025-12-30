@@ -31,21 +31,25 @@ A modern, responsive portfolio website built with Next.js, Tailwind CSS, and Typ
 ### Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/Ramsan-code/portfolio.git
    ```
 
 2. Navigate to the project directory:
+
    ```bash
    cd Portfolio
    ```
 
 3. Install dependencies:
+
    ```bash
    npm install
    ```
 
 4. Run the development server:
+
    ```bash
    npm run dev
    ```
@@ -71,4 +75,5 @@ npm run start
 This project is private and for personal use.
 
 ---
-Developed by **Sahastra Gunasegaram**
+
+Developed by \*Ramsan\*\*

@@ -7,9 +7,9 @@ import { Navbar } from '@/components/navbar';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Ramsan - Web Developer',
+  title: 'Ramsan - AI & MERN Developer Portfolio',
   description:
-    'Personal portfolio of Ramsan, a Full-Stack Developer specializing in MERN and Next.js, showcasing projects that integrate Machine Learning, UI/UX design, and SaaS product development.',
+    'Personal portfolio of Ramsan, a Full-Stack Developer specializing in MERN and Next.js, UI/UX design, and SaaS product development.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
