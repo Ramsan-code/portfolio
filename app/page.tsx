@@ -86,8 +86,7 @@ export default function Home() {
         </div>
 
         {/* Articles Section with subtle background */}
-        <div className="relative z-10">
-        </div>
+        <div className="relative z-10"></div>
 
         {/* Skills Section with gradient background */}
         <div className="relative z-10 bg-gradient-to-r from-blue-50 to-indigo-50">

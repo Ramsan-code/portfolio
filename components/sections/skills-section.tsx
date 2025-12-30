@@ -1,20 +1,21 @@
 const technicalSkills = [
   {
     category: 'Full Stack Web Development ',
-    skills: ['HTML/CSS',
-       'JavaScript', 
-       'React', 
-       'Next.js', 
-       'Git/GitHub', 
-       'Node.js', 
-       'Express.js',
-       'python', 
-       'MongoDB',
-       'RESTful APIs',
-       'Security and Authentication Protocols',
-       'System Architecture and Design',
-        'Deployment '
-      ],
+    skills: [
+      'HTML/CSS',
+      'JavaScript',
+      'React',
+      'Next.js',
+      'Git/GitHub',
+      'Node.js',
+      'Express.js',
+      'python',
+      'MongoDB',
+      'RESTful APIs',
+      'Security and Authentication Protocols',
+      'System Architecture and Design',
+      'Deployment ',
+    ],
   },
   {
     category: 'UI/UX Design',
@@ -24,17 +25,15 @@ const technicalSkills = [
       'Miro ',
       'Balsamiq',
       'Mockflow',
-     " UXPin",
-     "Uizard ",
-     'Adobe XD',
-     'Sketch',
-     'InVision',
-     'Visily',
-     'Illustrator',
+      ' UXPin',
+      'Uizard ',
+      'Adobe XD',
+      'Sketch',
+      'InVision',
+      'Visily',
+      'Illustrator',
       'Lovable AI ',
       'Photoshop',
-
-      
     ],
   },
   {
@@ -59,23 +58,47 @@ const technicalSkills = [
       'Microsoft Word',
       'Microsoft Excel',
       'Microsoft PowerPoint',
-      'Microsoft Outlook',
       'Google Docs',
       'Google Sheets',
       'Google Slides',
-      'Notion',
       'Google Cloud',
+      'Google Antigravity',
+      'Google Colab',
+      'Google AI Studio',
+      'Google Stitch',
+      'Google Flow',
+      'Cursor',
+      'Quder'
     ],
   },
 ];
 
 const softSkills = [
-  'Statistical Thinking',
-  'Research & Analysis',
+  'Effective Communication',
+  'Presentation Techniques',
   'Problem Solving',
   'Critical Thinking',
   'Data Interpretation',
   'Academic Writing',
+];
+
+const businessSkills = [
+  'Financial Projections',
+  'Marketing Strategies',
+  'Startup Fundamentals',
+  'Pricing Strategy',
+  'Competitive Analysis',
+];
+
+const hrSkills = [
+  'Talent Acquisition',
+  'Employee Onboarding',
+  'Performance Management',
+  'Conflict Resolution',
+  'Team Building',
+  'HR Policies & Compliance',
+  'Workforce Planning',
+  'Training & Development',
 ];
 
 export function SkillsSection() {
@@ -138,6 +161,48 @@ export function SkillsSection() {
                 key={skill}
                 className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-3 rounded-full font-medium shadow-lg hover:from-blue-700 hover:to-blue-800 transition-all duration-300 transform hover:scale-105 hover-lift animate-fade-in-up"
                 style={{ animationDelay: `${0.7 + index * 0.1}s` }}
+              >
+                {skill}
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Entrepreneurial & Business Skills */}
+        <div className="mt-16">
+          <h3
+            className="text-2xl font-bold text-gray-900 mb-8 text-center animate-fade-in-up"
+            style={{ animationDelay: '0.8s' }}
+          >
+            Entrepreneurial & Business Skills
+          </h3>
+          <div className="flex flex-wrap justify-center gap-4">
+            {businessSkills.map((skill, index) => (
+              <div
+                key={skill}
+                className="bg-gradient-to-r from-green-600 to-green-700 text-white px-6 py-3 rounded-full font-medium shadow-lg hover:from-green-700 hover:to-green-800 transition-all duration-300 transform hover:scale-105 hover-lift animate-fade-in-up"
+                style={{ animationDelay: `${0.9 + index * 0.1}s` }}
+              >
+                {skill}
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* HR Skills & Knowledge */}
+        <div className="mt-16">
+          <h3
+            className="text-2xl font-bold text-gray-900 mb-8 text-center animate-fade-in-up"
+            style={{ animationDelay: '1.0s' }}
+          >
+            HR Skills & Knowledge
+          </h3>
+          <div className="flex flex-wrap justify-center gap-4">
+            {hrSkills.map((skill, index) => (
+              <div
+                key={skill}
+                className="bg-gradient-to-r from-purple-600 to-purple-700 text-white px-6 py-3 rounded-full font-medium shadow-lg hover:from-purple-700 hover:to-purple-800 transition-all duration-300 transform hover:scale-105 hover-lift animate-fade-in-up"
+                style={{ animationDelay: `${1.1 + index * 0.1}s` }}
               >
                 {skill}
               </div>
