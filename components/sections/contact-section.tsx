@@ -1,36 +1,22 @@
 'use client';
 
-import { FormEvent, useState } from 'react';
+import dynamic from 'next/dynamic';
+
+
+  
+;
 
 export function ContactSection() {
-  const [status, setStatus] = useState<string | null>(null);
-  const [loading, setLoading] = useState(false);
-
-  async function onSubmit(event: FormEvent<HTMLFormElement>) {
-    event.preventDefault();
-    const formData = new FormData(event.currentTarget);
-    setLoading(true);
-    setStatus(null);
-
-    // Simulate form submission (in real app, this would go to your API)
-    setTimeout(() => {
-      setStatus("Message sent successfully! I'll get back to you soon.");
-      setLoading(false);
-      (event.target as HTMLFormElement).reset();
-    }, 1000);
-  }
-
   return (
     <section id="contact" className="scroll-mt-24 bg-white py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4 animate-fade-in-up">Get In Touch</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4 animate-fade-in-up">Thank you For Visiting My Portfolio</h2>
           <p
             className="text-xl text-gray-600 max-w-3xl mx-auto animate-fade-in-up"
             style={{ animationDelay: '0.2s' }}
           >
-            I&apos;m always open to discussing new opportunities, interesting projects, or just
-            having a chat about technology
+            My Details & Social Media Links 
           </p>
         </div>
 
@@ -40,6 +26,7 @@ export function ContactSection() {
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Contact Information</h3>
               <div className="space-y-6">
+                {/* Email */}
                 <div className="flex items-center hover-lift transition-all duration-300">
                   <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
                     <svg
@@ -60,7 +47,7 @@ export function ContactSection() {
                     <h4 className="font-semibold text-gray-900">Email</h4>
                     <div className="flex items-center gap-2">
                       <a
-                        href=""
+                        href="mailto:ramsandota@gmail.com"
                         className="text-blue-600 hover:text-blue-700 transition-colors font-medium"
                       >
                         ramsandota@gmail.com
@@ -68,7 +55,6 @@ export function ContactSection() {
                       <button
                         onClick={() => {
                           navigator.clipboard.writeText('ramsandota@gmail.com');
-                          // You can add a toast notification here if you want
                         }}
                         className="text-gray-500 hover:text-gray-700 transition-colors text-sm"
                         title="Copy email address"
@@ -91,6 +77,59 @@ export function ContactSection() {
                   </div>
                 </div>
 
+                {/* Mobile Number */}
+                <div className="flex items-center hover-lift transition-all duration-300">
+                  <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
+                    <svg
+                      className="w-6 h-6 text-blue-600"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M3 5a2 2 0 012-2h2.3c.9 0 1.7.5 2.1 1.3l1.1 2.4a1 1 0 01-.2 1L9.2 10.8a13.3 13.3 0 005 5l1.9-1.3a1 1 0 011 .1l2.4 1.1c.8.4 1.3 1.2 1.3 2.1V19a2 2 0 01-2 2A17 17 0 013 5z"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-900">Mobile Number</h4>
+                    <div className="flex items-center gap-2">
+                      <a
+                        href="tel:+94740832001"
+                        className="text-blue-600 hover:text-blue-700 transition-colors font-medium"
+                        aria-label="Call +94 74 083 2001"
+                      >
+                        +94 74 083 2001
+                      </a>
+                      <button
+                        onClick={() => {
+                          navigator.clipboard.writeText('+94 74 083 2001');
+                        }}
+                        className="text-gray-500 hover:text-gray-700 transition-colors text-sm"
+                        title="Copy phone number"
+                      >
+                        <svg
+                          className="w-4 h-4"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                {/* LinkedIn */}
                 <div className="flex items-center hover-lift transition-all duration-300">
                   <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
                     <svg className="w-6 h-6 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
@@ -110,6 +149,7 @@ export function ContactSection() {
                   </div>
                 </div>
 
+                {/* GitHub */}
                 <div className="flex items-center hover-lift transition-all duration-300">
                   <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
                     <svg className="w-6 h-6 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
@@ -129,6 +169,7 @@ export function ContactSection() {
                   </div>
                 </div>
 
+                {/* Location */}
                 <div className="flex items-center hover-lift transition-all duration-300">
                   <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
                     <svg
@@ -158,102 +199,10 @@ export function ContactSection() {
                 </div>
               </div>
             </div>
-
-            <div className="bg-blue-50 rounded-2xl p-6 hover-lift transition-all duration-300">
-              <h4 className="font-semibold text-gray-900 mb-3">Professional Summary</h4>
-              <ul className="space-y-2 text-gray-700">
-                <li className="flex items-center">
-                  <span className="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>
-                  <strong>Availability:</strong> Open to opportunities
-                </li>
-                <li className="flex items-center">
-                  <span className="w-2 h-2 bg-blue-500 rounded-full mr-3"></span>
-                  <strong>Preferred Contact:</strong> Email or LinkedIn
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          {/* Contact Form */}
-          <div
-            className="bg-gray-50 rounded-2xl p-8 animate-fade-in-up"
-            style={{ animationDelay: '0.5s' }}
-          >
-            <h3 className="text-2xl font-bold text-gray-900 mb-6">Send Me a Message</h3>
-            <form onSubmit={onSubmit} className="space-y-6">
-              <div>
-                <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                  Name
-                </label>
-                <input
-                  id="name"
-                  name="name"
-                  type="text"
-                  required
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 hover-lift"
-                  placeholder="Your name"
-                />
-              </div>
-
-              <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                  Email
-                </label>
-                <input
-                  id="email"
-                  name="email"
-                  type="email"
-                  required
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 hover-lift"
-                  placeholder="your.email@example.com"
-                />
-              </div>
-
-              <div>
-                <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
-                  Subject
-                </label>
-                <input
-                  id="subject"
-                  name="subject"
-                  type="text"
-                  required
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 hover-lift"
-                  placeholder="What's this about?"
-                />
-              </div>
-
-              <div>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                  Message
-                </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  rows={5}
-                  required
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 hover-lift resize-none"
-                  placeholder="Tell me about your project, opportunity, or just say hello!"
-                />
-              </div>
-
-              <button
-                type="submit"
-                disabled={loading}
-                className="w-full bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 disabled:from-blue-400 disabled:to-blue-500 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-105 disabled:transform-none hover-lift"
-              >
-                {loading ? 'Sending...' : 'Send Message'}
-              </button>
-
-              {status && (
-                <div className="p-4 bg-green-50 border border-green-200 rounded-lg animate-fade-in-up">
-                  <p className="text-green-800 text-sm">{status}</p>
-                </div>
-              )}
-            </form>
           </div>
         </div>
       </div>
     </section>
   );
 }
+
