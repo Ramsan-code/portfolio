@@ -120,7 +120,12 @@ export default function Home() {
               </div>
 
               {/* Right Column - Connect */}
-              
+              <div className="space-y-4">
+                <h4 className="text-lg font-semibold text-white">Connect</h4>
+                <p className="text-gray-400 text-sm">
+                  Feel free to reach out for collaborations or just a friendly hello.
+                </p>
+              </div>
             </div>
 
             <div className="border-t border-slate-700 pt-8 text-center">
