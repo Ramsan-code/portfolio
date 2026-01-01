@@ -4,16 +4,9 @@ import { useState } from 'react';
 
 const projects = [
   {
-    title: 'AI-Doc-Explorer',
-    description:
-      'AI Doc Explorer is a Django-based web application designed to simplify document comprehension, particularly for legal contracts and complex documents. The platform automatically processes uploaded PDF documents ',
-    technologies: ['Python', 'Django', 'mariadb'],
-    github: 'https://github.com/Ramsan-code/ai-doc-explorer.git',
-  },
-  {
     title: 'Book Locator ',
     description:
-      'Introduction Book Locator is a web-based peer-to-peer book marketplace designed to connect readers within local communities. In an era where digital reading is prevalent, many still prefer physical books but struggle to find them affordably or locally. Book Locator addresses this by providing a platform for users to buy, sell, and discover books in their immediate vicinity, fostering a sustainable and community-driven reading culture',
+      'Introduction Book Locator(Open Sourse) is a web-based peer-to-peer book marketplace designed to connect readers within local communities. In an era where digital reading is prevalent, many still prefer physical books but struggle to find them affordably or locally. Book Locator addresses this by providing a platform for users to buy, sell, and discover books in their immediate vicinity, fostering a sustainable and community-driven reading culture',
     technologies: [
       'Next.js',
       'MongoDB',
@@ -39,21 +32,39 @@ const projects = [
       'nodemon',
     ],
     github: 'https://github.com/Ramsan-code/Book-Locator.git',
+    deployedUrl: 'https://book-locator.vercel.app/',
   },
+  {
+    title: 'Mini-Pos-Api ',
+    description: 'Develop a Mini POS (Point of Sale) RESTful API using Node.js (Express) and MongoDB (Mongoose) with ESM modules. The goal is to apply backend development concepts, understand MVC structure, and practice CRUD operations, search, filters, and pagination.',
+    technologies: ['Express', 'node.js', 'JavaScript', 'mongodb', 'mongoose', 'cors', 'dotenv', 'nodemon',],
+    github: 'https://github.com/Ramsan-code/mini-pos-api.git',
+    deployedUrl: 'https://mini-pos-api.vercel.app/',
+  }, 
+    {
+    title: 'Show Tracker',
+     deployedUrl: 'https://assignment1-ramsan.vercel.app/',
+    description: 'ShowTrack is a modern, production-ready web application designed for tracking, rating, and managing your favorite TV shows and movies. It features a premium cinema-inspired design and persistent storage using the LocalStorage API',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    github: 'https://github.com/Ramsan-code/Assignment1_Ramsan.git',
+   
+  },
+
 
   {
     title: 'Exam Result Progress System',
     description: 'Exam Result Progress System using python',
     technologies: ['python'],
     github: 'https://github.com/Ramsan-code/final-assignment.git',
+    deployedUrl: '',
   },
-
   {
     title: 'Google Translater ',
     description:
       'A web application that translates text between different languages using the Google Translate API. Users can input text, select source and target languages, and receive accurate translations in real-time.',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Google Translate API'],
     github: 'https://github.com/Ramsan-code/google_Translater.git',
+    deployedUrl: '',
   },
   {
     title: 'QR Code Generator ',
@@ -61,14 +72,14 @@ const projects = [
       'A simple and user-friendly QR code generator web application that allows users to create QR codes quickly for URLs, text, and other data',
     technologies: ['HTML', 'CSS', 'JavaScript', 'qrcode.min.js'],
     github: 'https://github.com/Ramsan-code/QR_Genarator.git',
+    deployedUrl: '',
   },
-  {
-    title: 'Theme Switcher ',
-    description: 'I create theme-switcher for only using html,css and vanilla javascript',
-    technologies: ['HTML', 'CSS', 'JavaScript'],
-    github: 'https://github.com/Ramsan-code/theme_swicher.git',
-  },
+
+
+
 ];
+
+
 
 export function ProjectsSection() {
   const [expandedProjects, setExpandedProjects] = useState<Set<number>>(new Set());
@@ -157,8 +168,18 @@ export function ProjectsSection() {
                       rel="noopener noreferrer"
                       className="flex-1 bg-gray-900 hover:bg-gray-800 text-white text-center py-2 px-3 rounded-lg transition-colors duration-200 hover-lift text-sm"
                     >
-                      View on GitHub
+                      GitHub
                     </a>
+                    {project.deployedUrl && (
+                      <a
+                        href={project.deployedUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex-1 bg-blue-600 hover:bg-blue-700 text-white text-center py-2 px-3 rounded-lg transition-colors duration-200 hover-lift text-sm"
+                      >
+                        Live Demo
+                      </a>
+                    )}
                   </div>
                 </div>
               </div>

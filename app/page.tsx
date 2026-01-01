@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import { EducationSection } from '@/components/sections/education-section';
 import { ProjectsSection } from '@/components/sections/projects-section';
+import { ProjectTitlesSection } from '@/components/sections/project-titles-section';
 import { SkillsSection } from '@/components/sections/skills-section';
 import { ContactSection } from '@/components/sections/contact-section';
 
@@ -57,17 +58,12 @@ export default function Home() {
                 <div className="space-y-3">
                   <h3 className="text-lg font-semibold text-gray-800"> About Me</h3>
                   <p className="text-base text-gray-600 leading-relaxed max-w-5xl">
-                    I am a highly motivated, multidisciplinary technology professional with a strong
-                    academic and practical foundation in Full Stack Web Development, Artificial
-                    Intelligence, UI/UX Design, Human Resourse Management, and Business
-                    Fundamentals. I thrive at the intersection of technology, design, and strategy,
-                    building solutions that are both technically robust and user-centered.I have
-                    completed multiple industry-recognized masterclasses and skill camps from
-                    leading technology and innovation hubs, including NoviTech R&D, Uki, Yarl IT
-                    Hub, Pantech.AI, British Institute of Engineering & Technology and Institute of
-                    Comparative Analysis for Scientific Environmental Development(CASED). These
-                    programs have strengthened my hands-on experience and exposed me to real-world,
-                    industry-driven problem solving.
+I build intelligent and scalable web applications using the MERN stack and Next.js, focusing on practical solutions for real-world challenges. My work clean UI/UX design, and SaaS-oriented thinking to create user-friendly and efficient products.
+
+I am interested in collaborating on AI-driven systems, full stack platforms, SaaS applications, startup MVPs, and innovative digital products that use modern web and AI technologies. I enjoy transforming ideas into functional applications that can grow into real products.
+
+I am continuously developing my skills in full stack development, AI and machine learning fundamentals, UI/UX principles, SaaS architecture, entrepreneurship,HRM and modern productivity workflows. 
+
                   </p>
                 </div>
               </div>
@@ -83,6 +79,11 @@ export default function Home() {
         {/* Projects Section with gradient background */}
         <div className="relative z-10 bg-gradient-to-r from-gray-50 to-blue-50">
           <ProjectsSection />
+        </div>
+
+        {/* Project Titles Section */}
+        <div className="relative z-10">
+          <ProjectTitlesSection />
         </div>
 
         {/* Skills Section with gradient background */}
