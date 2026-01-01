@@ -1,6 +1,6 @@
 const technicalSkills = [
   {
-    category: 'Full Stack Web Development ',
+    category: 'Full Stack Web Development',
     skills: [
       'HTML/CSS',
       'JavaScript',
@@ -9,12 +9,13 @@ const technicalSkills = [
       'Git/GitHub',
       'Node.js',
       'Express.js',
-      'python',
+      'Python',
       'MongoDB',
       'RESTful APIs',
       'Security and Authentication Protocols',
       'System Architecture and Design',
-      'Deployment ',
+      'Deployment',
+      'AWS',
     ],
   },
   {
@@ -22,17 +23,17 @@ const technicalSkills = [
     skills: [
       'Figma',
       'WordPress',
-      'Miro ',
+      'Miro',
       'Balsamiq',
       'Mockflow',
-      ' UXPin',
-      'Uizard ',
+      'UXPin',
+      'Uizard',
       'Adobe XD',
       'Sketch',
       'InVision',
       'Visily',
       'Illustrator',
-      'Lovable AI ',
+      'Lovable AI',
       'Photoshop',
     ],
   },
@@ -40,7 +41,7 @@ const technicalSkills = [
     category: 'Artificial Intelligence & Machine Learning',
     skills: [
       'Python Programming',
-      'openCV',
+      'OpenCV',
       'NumPy',
       'Pandas',
       'Matplotlib',
@@ -67,8 +68,9 @@ const technicalSkills = [
       'Google AI Studio',
       'Google Stitch',
       'Google Flow',
+      'Google DeepMind',
       'Cursor',
-      'Quder'
+      'Qoder',
     ],
   },
 ];
@@ -77,28 +79,36 @@ const softSkills = [
   'Effective Communication',
   'Presentation Techniques',
   'Problem Solving',
+  'Teamwork & Collaboration',
+  'Learning Agility',
+  'Time Management',
+  'Adaptability',
   'Critical Thinking',
-  'Data Interpretation',
-  'Academic Writing',
+  'Creativity',
+  'Emotional Intelligence',
+  'Leadership',
 ];
 
 const businessSkills = [
+  'Competitor Analysis',
   'Financial Projections',
   'Marketing Strategies',
   'Startup Fundamentals',
   'Pricing Strategy',
   'Competitive Analysis',
+  'Business Modeling',
+  'Pitch Deck Creation',
 ];
 
 const hrSkills = [
-  'Talent Acquisition',
-  'Employee Onboarding',
-  'Performance Management',
-  'Conflict Resolution',
   'Team Building',
-  'HR Policies & Compliance',
-  'Workforce Planning',
-  'Training & Development',
+  'Strategic Management',
+  'Digital HR Tools',
+  'Confidentiality & Ethics',
+  'Labor Laws & Employee Relations',
+  'HR Administration',
+  'Key Performance Indicators (KPIs) & OKRs',
+
 ];
 
 export function SkillsSection() {
