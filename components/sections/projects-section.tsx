@@ -93,13 +93,13 @@ export function ProjectsSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4 animate-fade-in-up">
-            Featured Projects
+            My Projects
           </h2>
           <p
             className="text-xl text-gray-600 max-w-3xl mx-auto animate-fade-in-up"
             style={{ animationDelay: '0.2s' }}
           >
-            Showcasing my AI , MERN stack development & Next.js projects
+            Showcasing my AI , Full Stack  & Next.js projects
           </p>
         </div>
 
