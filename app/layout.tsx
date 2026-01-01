@@ -7,7 +7,7 @@ import { Navbar } from '@/components/navbar';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Ramsan - AI & MERN Developer Portfolio',
+  title: 'Ramsan - AI & Full Stack Developer Portfolio',
   description:
     'Personal portfolio of Ramsan, a Full-Stack Developer specializing in MERN and Next.js, UI/UX design, and SaaS product development.',
 };
