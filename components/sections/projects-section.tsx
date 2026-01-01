@@ -68,7 +68,6 @@ const projects = [
     technologies: ['HTML', 'CSS', 'JavaScript'],
     github: 'https://github.com/Ramsan-code/theme_swicher.git',
   },
-  // Add more projects here by copying the structure above
 ];
 
 export function ProjectsSection() {
