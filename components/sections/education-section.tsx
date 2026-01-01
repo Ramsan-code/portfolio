@@ -111,9 +111,9 @@ export function EducationSection() {
             <div className="space-y-4">
               <div className="p-4 bg-gray-50 rounded-lg">
                 <h4 className="text-lg font-semibold text-gray-900">Current Role</h4>
-                <p className="text-blue-600 font-medium">Web Developer</p>
+                <p className="text-blue-600 font-medium">AI & Full Stack Web Developer</p>
                 <p className="text-gray-600 text-sm">
-                  Full-stack web applications using MERN &amp; Next.js, UI/UX, and SaaS-focused
+                 AI & Full Stack web applications using MERN &amp; Next.js, UI/UX, and SaaS-focused
                   product thinking intergrated with AI capabilities.
                 </p>
               </div>
@@ -127,7 +127,7 @@ export function EducationSection() {
                   <p>Startup Essentials 2025 program by Uki and Yarl IT Hub.</p>
                   <p>Diploma in Microsoft office by Balmoral institute of information technology</p>
                   <p>
-                    Certificate of Participation in Introduction To Artificial Intelligence And
+                   Participation in Introduction To Artificial Intelligence And
                     Machine Learning by British Institute of Engineering &amp; Technology
                   </p>
                   <p>Skill camp on Leveraging Full Stack with AI, conducted by NoviTech R&amp;D</p>
@@ -139,6 +139,8 @@ export function EducationSection() {
                     Certificate of Participation in Modern Project Management Trends and Globel
                     Opportunities for Project Management
                   </p>
+                  <p>Human Psychology in Online Manipulation NoviTech R&amp;D</p>
+                  <p>BootTcamp in Data Driven IT Sectors NoviTech R&D Private Limited</p>
                 </div>
               </div>
             </div>
