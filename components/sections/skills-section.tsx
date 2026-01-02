@@ -70,7 +70,7 @@ const technicalSkills = [
       'Google Flow',
       'Google DeepMind',
       'Cursor',
-      'Qoder',
+      'Orcids',
     ],
   },
 ];
