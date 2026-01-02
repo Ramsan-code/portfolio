@@ -124,7 +124,7 @@ I am continuously developing my skills in full stack development, AI and machine
               <div className="space-y-4">
                 <h4 className="text-lg font-semibold text-white">Connect</h4>
                 <p className="text-gray-300 text-sm leading-relaxed max-w-xs">
-                  I'm open to collaboration, freelance work, or a friendly chat about AI and full‑stack projects. Reach me at ramsandota@gmail.com or find me on <a href="https://www.linkedin.com/in/ramsan001/" target="_blank" rel="noreferrer" className="text-blue-400 hover:underline">LinkedIn</a> and <a href="https://github.com/Ramsan-code" target="_blank" rel="noreferrer" className="text-blue-400 hover:underline">GitHub</a>.
+                  I&apos;m open to collaboration, freelance work, or a friendly chat about AI and full‑stack projects. Reach me at ramsandota@gmail.com or find me on <a href="https://www.linkedin.com/in/ramsan001/" target="_blank" rel="noreferrer" className="text-blue-400 hover:underline">LinkedIn</a> and <a href="https://github.com/Ramsan-code" target="_blank" rel="noreferrer" className="text-blue-400 hover:underline">GitHub</a>.
                 </p>
               </div>
             </div>

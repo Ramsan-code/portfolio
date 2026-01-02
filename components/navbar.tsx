@@ -1,17 +1,9 @@
 'use client';
 
 import Link from 'next/link';
-import { useTheme } from 'next-themes';
-import { useEffect, useState } from 'react';
-
+import { useState } from 'react';
 export function Navbar() {
-  const { theme, setTheme, resolvedTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
-  useEffect(() => setMounted(true), []);
-
-  const isDark = (mounted ? resolvedTheme : theme) === 'dark';
 
   return (
     <header className="sticky top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-background/75 bg-white/90 border-b border-gray-200">
